@@ -28,19 +28,33 @@ The project has been tested on CUDA 11.4, pytorch 1.11.0, torchvision 0.12.0,  p
 
 ## 3. Program description and testing
 
+Download the mask to  `. /MASK/HyperspecI_V1.mat` and  `. /MASK/HyperspecI_V2.mat` ;
+
+Download the pre-trained weights to  `. /model_zoo/SRNet_V1.pth` and   `. /model_zoo/SRNet_V2.pth` ;
+
+Download the testing measurements to    `. /Measurements_Test/HyperspecI_V1/` and   `. /Measurements_Test/HyperspecI_V2/` 
+
+Download the training dataset to    `'./Dataset_Train/HSI_400_1000/HSI_all/'` and   `'./Dataset_Train/HSI_400_1700/HSI_all/'` 
+
 ### 3.1 Main program and data description
 
 - The model of hyperspectral images reconstruction:  `. /architecture/SRNet.py` 
+
 - Pre-trained weights of SRNet for HyperspecI-V1:   `. /model_zoo/SRNet_V1.pth` 
+
 - Pre-trained weights of SRNet for HyperspecI-V2:   `. /model_zoo/SRNet_V2.pth` 
+
 - Calibrated sensing matrix of HyperspecI-V1:   `. /MASK/HyperspecI_V1.mat` 
+
 - Calibrated sensing matrix of HyperspecI-V2:   `. /MASK/HyperspecI_V2.mat` 
+
 - Measurements collected by our HyperspecI-V1:   `. /Measurements_Test/HyperspecI_V1/` 
+
 - Measurements collected by our HyperspecI-V2:   `. /Measurements_Test/HyperspecI_V2/` 
+
 - The test and training program :    `train_HyperspecI_V1.py` ,`train_HyperspecI_V2.py`   `test_HyperspecI_V1.py` ,`test_HyperspecI_V2.py` 
-- 
 
-
+  
 
 ### 3.2 Model Training of SRNet
 
