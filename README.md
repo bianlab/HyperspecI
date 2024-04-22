@@ -20,9 +20,9 @@ The project has been tested on CUDA 11.4, pytorch 1.11.0, torchvision 0.12.0,  p
 
 ### 2.1 Instructions
 
-The code, pre-trained model , and measurements for testing can be downloaded at public repository ：https://github.com/bianlab/HyperspecI
-
-Due to the massive amount of training dataset, we have packaged it into multiple repositories for storage: https://github.com/bianlab/Hyperspectral-imaging-dataset
+- The code for training and testing can be downloaded at public repository ：https://github.com/bianlab/HyperspecI
+- The mask, testing measurements and pre-trained weights can be downloaded from the Google Drive link: https://drive.google.com/drive/folders/1x6nZpcTP9RIsENJL566pV9v83e1e4gpn?usp=sharing
+- Due to the massive amount of training dataset, we have packaged it into multiple repositories for storage: https://github.com/bianlab/Hyperspectral-imaging-dataset
 
 
 
@@ -38,6 +38,7 @@ Due to the massive amount of training dataset, we have packaged it into multiple
 - Measurements collected by our HyperspecI-V1:   `. /Measurements_Test/HyperspecI_V1/` 
 - Measurements collected by our HyperspecI-V2:   `. /Measurements_Test/HyperspecI_V2/` 
 - The test and training program :    `train_HyperspecI_V1.py` ,`train_HyperspecI_V2.py`   `test_HyperspecI_V1.py` ,`test_HyperspecI_V2.py` 
+- 
 
 
 
