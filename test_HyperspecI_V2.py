@@ -13,7 +13,7 @@ import h5py
 
 parser = argparse.ArgumentParser(description="Reconstruct hypersepctral images from measurements")
 parser.add_argument("--method", type=str, default='V2_srnet', help='Model')
-parser.add_argument("--gpu_id", type=str, default='3', help='path log files')
+parser.add_argument("--gpu_id", type=str, default='0', help='path log files')
 parser.add_argument('--batch_size', type=int, default=1, help='batch size')
 parser.add_argument("--mask_path", type=str, default='./MASK/Mask_HyperspecI_V2.mat', help='path log files')
 parser.add_argument("--start_dir", type=int, default=(0, 0), help="size of test image coordinate")
