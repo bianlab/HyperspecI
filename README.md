@@ -1,4 +1,4 @@
-# A low-cost integrated hyperspectral imaging sensor with full temporal and spatial resolution at VIS-NIR wide range
+# A broadband hyperspectral image sensor with high spatio-temporal resolution
 
 [Liheng Bian*](https://scholar.google.com/citations?user=66IFMDEAAAAJ&hl=zh-CN&oi=sra), [Zhen Wang*](https://scholar.google.com/citations?hl=zh-CN&user=DexiDloAAAAJ), [Yuzhe Zhang*](https://scholar.google.com/citations?hl=zh-CN&user=rymYR-wAAAAJ), Lianjie Li, Yinuo Zhang, Chen Yang, Wen Fang, Jiajun Zhao, Chunli Zhu, Qinghao Meng, Xuan Peng, and Jun Zhang. (*Equal contributions)
 
